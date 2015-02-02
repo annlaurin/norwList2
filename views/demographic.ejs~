@@ -1,92 +1,105 @@
 <div style="text-align: left;">
 <input type="hidden" name="destination" value="demographics.csv">
-Спасибо!
-В заключение ответьте, пожалуйста, на эти вопросы:
+
+Persönliche Daten
 
 <p>
-Сколько вам лет? <br>
+Alter<br>
 <input type="text" name="age" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 
 <p>
 
-Ваш пол
+Geschlecht
 	<select name="sex" style="position: absolute; left:15em; margin-top:-2px;">
-		<option value="none">Выберите</option>
-		<option value="male">Мужской</option>
-		<option value="female">Женский</option>
+		<option value="none">wählen</option>
+		<option value="male">männlich</option>
+		<option value="female">weiblich</option>
 	</select>
 	
 
 <p>
-Ваше образование  
+Ausbildung 
 	<select name="education" style="position: absolute; left:15em; margin-top:-2px;">
-		<option value="none">Выберите</option>
-		<option value="srednee">Среднее</option>
-		<option value="sred.spec">Среднее специальное</option>
-		<option value="higher.incomplete">Неоконченное высшее</option>
-		<option value="higher">Высшее</option>
-		<option value="PhD">Ученая степень/PhD</option>
+		<option value="none">wählen</option>
+		<option value="srednee">Schule</option>
+		<option value="sred.spec">Berufschule</option>
+		<option value="higher.incomplete">nicht abgeschlossenes Studium</option>
+		<option value="higher">abgeschlossenes Studium</option>
+		<option value="PhD">abgeschlossenes Doktorat</option>
 	</select>
 <p>
 
-Ваш родной язык <br>
+Muttersprache <br>
 <input type="text" name="native.lang" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 
 <p>
 
-Говорите ли вы на других языках? На каких? <br>
-<input type="text" name="foreign.lang" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
+Sprechen Sie Fremdsprachen? Welche? Wie gut sind Ihre Sprachkenntnisse? <br>
+<input type="text" name="foreign.lang" value="" SIZE="30" MAXLENGTH="200" style="width: 30em;">
 
 <p>
 
-Область профессиональной деятельности <br>
+Tätigkeitsbereich (bzw. Studienrichtung)<br>
 <input type="text" name="profession" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 
 <p>
 
-Вы  
+Sie sind 
 	<select name="dominant.hand" style="position: absolute; left:9em; margin-top:-2px;">
-		<option value="none">Выберите</option>
-		<option value="right">Правша</option>
-		<option value="left">Левша</option>
-		<option value="ambidexter">Одинаково владеете обеими руками</option>
-		<option value="former.left">Переученный левша</option>
+		<option value="none">wählen</option>
+		<option value="right">RechtshändlerIn</option>
+		<option value="left">LinkshänderIn</option>
+		<option value="ambidexter">BeidhänderIn</option>
+		<option value="former.left">umgelernte(r) LinkshänderIn</option>
 	</select>
 <p>
 
-Есть ли у вас проблемы со слухом?
+In welchem Alter sind Sie nach Deutschland/Österreich/in die Schweiz ausgewandert?<br>
+<input type="text" name="profession" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
+<p>
+
+Wie viele Jahre haben Sie insgesamt in Deutschland/Österreich/in der Schweiz gelebt?<br>
+<input type="text" name="profession" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
+<p>
+
+Benutzen Sie die russische Sprache für kommunikative Zwecke? In welchen Situationen und wie oft?
+<br>
+<input type="text" name="profession" value="" SIZE="30" MAXLENGTH="400" style="width: 30em;">
+
+<p>
+Haben Sie irgendwelche Gehörprobleme?
 	<select name="hearing" style="position: absolute; left:20em; margin-top:-2px;">
-		<option value="none">Выберите</option>
-		<option value="hearing.ok">Нет</option>
-		<option value="hearing.bad">Да</option>
+		<option value="none">wählen</option>
+		<option value="hearing.ok">Nein</option>
+		<option value="hearing.bad">Ja</option>
 	</select>
 <p>
 
 
-Вы слушали с помощью
+Womit haben Sie die Aufnahmen gehört?
 	<select name="audio" style="position: absolute; left:12em; margin-top:-2px;">
-		<option value="none">Выберите</option>
-		<option value="headphones">Наушников</option>
-		<option value="speakers">Колонок</option>
-		<option value="laptop.speakers">Встроенных колонок ноутбука</option>
-		<option value="other">Другое</option>
+		<option value="none">wählen</option>
+		<option value="headphones">Kopfhörer</option>
+		<option value="speakers">Lautsprecherbox</option>
+		<option value="laptop.speakers">eingebaute Lautsprecher im Notebook</option>
+		<option value="other">etwas anderes</option>
 	</select>
 <p>
 
 
-Если в ходе эксперимента у вас возникли замечания или вопросы, напишите об этом.
+Wenn während des Experimentes Fragen oder Bemerkungen aufgetaucht sind, teilen Sie uns diese bitte mit.
 <textarea ROWS="6" COLS="30" name="sugg" style="padding: 0px; width: 30em;"></textarea><br>
 
 <p>
 
-Пожалуйста, укажите ваш e-mail для связи. 
+Geben Sie bitte Ihre E-Mail-Adresse an, damit wir Ihnen die Forschungsresultate mitteilen können. 
 <input type="text" name="email" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 
 <p>
 
 
 <P style="text-align: right;">
-<input type="button" value="   send   " onClick="Experigen.recordResponse(this);">
+<input type="button" value="   Senden   " onClick="Experigen.recordResponse(this);">
 	
 
 </div>

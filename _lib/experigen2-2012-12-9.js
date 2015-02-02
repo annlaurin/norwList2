@@ -474,7 +474,7 @@ var timer_maker = function (  ) {
 			id: soundID,
 			url: soundFile,
 			autoPlay: false, 
-			autoLoad: false,  				// ok, let's try this one
+			autoLoad: false,		// fixing troubles
 			onload:function() {
 
 				if (soundFile2 != "") {
@@ -489,7 +489,7 @@ var timer_maker = function (  ) {
 							if (advance) {
 								setTimeout(function() {
 									Experigen.screen().advance();
-								}, 3000);
+								}, 4000);
 							}
 						}
 					});
@@ -500,7 +500,7 @@ var timer_maker = function (  ) {
 					if (soundFile2 === "") {
 						setTimeout(function() {
 							Experigen.screen().advance();
-						}, 3000);
+						}, 4000);
 					} else {
 						soundManager.play(soundID2);
 					}
