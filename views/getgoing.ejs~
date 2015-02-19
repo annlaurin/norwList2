@@ -1,7 +1,7 @@
 <div style="text-align: center;">
 
 <p>
-La oss starte eksperimentet
+Das Experiment beginnt!
 
 <p>
 <%= continueButton() %>

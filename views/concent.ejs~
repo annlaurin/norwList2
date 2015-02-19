@@ -5,7 +5,7 @@ Ved å trykke på «neste» godtar jeg vilkårene og deltar i undersøkelsen om 
 Jeg er innforstått med undersøkelsesprosedyren, og vet at jeg kan trekke meg fra undersøkelsen når som helst.<br> <br> 
 Jeg bekrefter med dette at:<br> <br> 
 1. Jeg ikke har hørselsvansker;<br> 
-2. Jeg ikke bruker medisiner som kan påvirke oppmerksomheten eller reaksjonstiden min.<br> 
+2. Jeg ikke bruker medisiner som kan påvirke oppmerksomheten eller reaksjonstiden min;<br> 
 
 	<%= continueButton() %>
 </div>
